@@ -17,7 +17,6 @@ public class mas3 {
 			
 			if (array[i] == 0) {
 				int[] newArray = { i };
-
 				printRes(newArray);
 
 			}
@@ -27,7 +26,6 @@ public class mas3 {
 	public static void printRes(int[] newArray) {
 
 		for (int finalArray : newArray) {
-			
 			System.out.print(finalArray + " ");
 
 		}
