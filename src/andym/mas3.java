@@ -14,10 +14,9 @@ public class mas3 {
 		
 		System.out.print("Massive created from the zero massive numbers is: [");
 		for (int i = 0; i < array.length; i++) {
-			
 			if (array[i] == 0) {
-				int[] newArray = { i };
-				printRes(newArray);
+			int[] newArray = { i };
+			printRes(newArray);
 
 			}
 		}
